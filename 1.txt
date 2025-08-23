@@ -1,0 +1,2 @@
+nodejs (axios, bcrypt, body-parser, cors, dotenv, express, jsonwebtoken, mongoose, nodemailer, ws) +
+mongodb database + docker + kuberbetes (Local Cluster, Config & Storage, Networking & Ingress, Autoscaling & Self-Healing,  CI/CD & Helm (using github hooks), Namespaces, Probes,  RBAC (Role-Based Access Control)) provide me the project as mnc company using to maintain their application
