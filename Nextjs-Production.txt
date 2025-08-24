@@ -7,7 +7,7 @@
       Client-Side Rendering (CSR): For interactive, SPA-like sections.
         👉 MNCs mix these modes for performance + SEO + user experience.
   
-  2. File-Based Routing
+  2. File-Based Routing (Now use App Routing ) 
       Pages are auto-routed based on the filesystem.
       Supports dynamic routes (/products/[id]) and catch-all routes (/[...slug]).
       Simplifies large projects where multiple teams maintain different modules.
