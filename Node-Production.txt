@@ -73,6 +73,46 @@
       Profiling with clinic.js, flamegraphs, node --inspect.
       Load testing with k6, Artillery.
 
+  17. Serverless Architectures
+      Many MNCs deploy Node.js functions on AWS Lambda, Azure Functions, GCP Cloud Functions.
+      Used for event-driven systems, data pipelines, and lightweight APIs without managing servers.
+
+  18. Edge Computing & Edge Functions
+      Node.js (or Deno/Cloudflare Workers with Node compatibility) is used for low-latency APIs at the edge (e.g., Cloudflare Workers, Vercel Edge,         Netlify Functions).
+      Useful for CDN-backed personalization or real-time analytics.
+
+  19. Internationalization (i18n) & Localization
+      MNCs serve global audiences → Node.js apps often use i18n libraries (like i18next, Globalize).
+      Handles time zones, currencies, translations, number/date formatting.
+
+  20. API Gateway & Rate Limiting
+      MNC systems use Express middleware + Nginx/Kong/Apigee for API Gateway functionality.
+      Features: API throttling, caching, rate limiting, authentication, request shaping.
+      Libraries: express-rate-limit, rate-limiter-flexible.
+
+  21. Configuration Management
+      Feature flags with LaunchDarkly/Unleash.
+      Config management with dotenv, config npm package, or environment-based separation.
+      Secrets & keys always managed in cloud vaults (AWS Secrets Manager, HashiCorp Vault).
+
+  22. CI/CD & Release Strategies
+      Blue-Green & Canary deployments for Node.js microservices.
+      Feature toggles + A/B testing.
+      Automated rollback with monitoring hooks.
+
+  23. Compliance & Observability
+      Logging & monitoring tied with compliance requirements (GDPR, HIPAA, SOC2).
+      Distributed tracing with OpenTelemetry + Jaeger/Zipkin in Node.js microservices.
+      Correlation IDs added to logs for debugging across services.
+
+  24. Hybrid Apps & APIs for Mobile
+      Node.js used for Backend-for-Frontend (BFF) in React Native or Flutter apps.
+      Used as an aggregation layer to optimize mobile API calls.
+
+  25. AI/ML Integrations
+      Node.js apps integrating with Python ML models (via gRPC/REST).
+      Light ML inference in Node.js using TensorFlow.js or calling external APIs (e.g., OpenAI, AWS Sagemaker).
+
   ✅ In MNCs, Node.js is not just used for writing APIs, but also as part of a full ecosystem:
       Frontend → React/Angular
       Backend → Node.js + Microservices
